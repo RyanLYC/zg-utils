@@ -1,0 +1,72 @@
+{
+  "name": "zg-utils",
+  "version": "1.0.0",
+  "description": "工具函数库",
+  "main": "dist/zg-utils.umd.js",
+  "module": "dist/zg-utils.esm.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/zg-utils.umd.js",
+      "import": "./dist/zg-utils.esm.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "types"
+  ],
+  "scripts": {
+    "build": "npm run clean:dist && npm run lint && rollup -c rollup.config.js",
+    "test": "npm run clean:test && jest",
+    "clean:dist": "rimraf ./dist",
+    "clean:test": "rimraf ./coverage",
+    "lint": "eslint --ignore-path .eslintignore .",
+    "lint:fix": "eslint --fix --ignore-path .eslintignore .",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "utils",
+    "zg-utils",
+    "工具函数"
+  ],
+  "author": "lyc",
+  "publishConfig": {
+    "registry": "http://10.0.35.243:8081/nexus/repository/fe-npm"
+  },
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/.cz-config.cjs"
+    }
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "eslint": "^7.27.0",
+    "jest": "^27.0.6",
+    "jest-transform-stub": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.47.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.2.4"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
