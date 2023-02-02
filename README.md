@@ -28,6 +28,7 @@
 ### Function
 - [debounce](src/function/debounce.ts)&emsp; 防抖函数
 - [throttle](src/function/throttle.ts)&emsp; 节流函数
+- [removeRepeat](src/function/removeRepeat.ts)&emsp; 数组去重
 
 ### Url
 - [getUrlParams](src/url/getUrlParams.ts)&emsp; 获取url上的query参数

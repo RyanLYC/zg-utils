@@ -10,10 +10,7 @@ module.exports = {
   },
   'parser': '@typescript-eslint/parser',
   'plugins': ['@typescript-eslint'],
-  'extends': [
-    'plugin:@typescript-eslint/recommended',
-    'eslint:recommended'
-  ],
+  'extends': ['plugin:@typescript-eslint/recommended', 'eslint:recommended'],
   'rules': {
     'no-tabs': 'off',
     'indent': ['error', 2],
@@ -28,7 +25,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'switch-colon-spacing': 'error',
     'space-before-blocks': 'error',
-    'space-before-function-paren': 'error',
+    // 'space-before-function-paren': 'error',
     'spaced-comment': 'error',
     'no-trailing-spaces': 'error',
     'no-undef': 'off',

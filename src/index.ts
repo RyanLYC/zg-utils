@@ -1,6 +1,7 @@
 // function
 import debounce from './function/debounce'
 import throttle from './function/throttle'
+import removeRepeat from './function/removeRepeat'
 // color
 // url
 import getUrlParams from './url/getUrlParams'
@@ -16,6 +17,7 @@ export {
   // function
   debounce,
   throttle,
+  removeRepeat,
   // color
   // url
   getUrlParams
