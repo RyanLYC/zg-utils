@@ -32,3 +32,11 @@ export declare function throttle(fn: Function, wait: number): Function
  * @returns T类型的数组
  */
 export declare function removeRepeat<T>(array: T[], key = ''): T[]
+
+/**
+ * @description 判断空对象
+ * @param source 目标对象
+ * @param strict 是否严格模式，默认值false (设置为，true: 空数组和空字面量对象【不】判定为empty；false：空数组和空字面量对象判定为empty)
+ * @returns {Boolean}
+ */
+export declare const isEmpty: (source: any, strict?: boolean) => boolean

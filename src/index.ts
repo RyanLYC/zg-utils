@@ -8,6 +8,7 @@ import getUrlParams from './url/getUrlParams'
 // regexp
 // time
 // object
+import isEmpty from './object/isEmpty'
 // string
 // echarts
 // web socket
@@ -20,10 +21,11 @@ export {
   removeRepeat,
   // color
   // url
-  getUrlParams
+  getUrlParams,
   // regexp
   // time
   // object
+  isEmpty
   // string
   // echarts
 }
@@ -34,10 +36,11 @@ export default {
   throttle,
   // color
   // url
-  getUrlParams
+  getUrlParams,
   // regexp
   // time
   // object
+  isEmpty
   // string
   // echarts
 }
