@@ -24,6 +24,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "types/**/*.d.ts", "tests/function/getObjValues.spec ts", "tests/function/getObjValues.spec ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
