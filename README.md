@@ -32,6 +32,7 @@
 
 ### Object
 - [isEmpty](src/object/isEmpty.ts)&emsp; 空对象判断
+- [getObjValues](src/object/getObjValues.ts)&emsp; 根据keys数组获取对象的values
 
 ### Url
 - [getUrlParams](src/url/getUrlParams.ts)&emsp; 获取url上的query参数

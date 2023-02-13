@@ -11,35 +11,19 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "suppressImplicitAnyIndexErrors":true,
+    "suppressImplicitAnyIndexErrors": true,
     "downlevelIteration": true,
     "noImplicitThis": false,
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": ".",
     "types": ["jest"],
-    "typeRoots": [
-      "./node_modules/@types",
-      "./types"
-    ],
-    "lib": [
-      "es5",
-      "es2015",
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ],
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "lib": ["es5", "es2015", "esnext", "dom", "dom.iterable", "scripthost"],
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "tests/**/*.ts",
-    "types/**/*.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*.ts", "tests/**/*.ts", "types/**/*.d.ts", "tests/function/getObjValues.spec ts", "tests/function/getObjValues.spec ts"],
+  "exclude": ["node_modules"]
 }

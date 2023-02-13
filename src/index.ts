@@ -9,6 +9,7 @@ import getUrlParams from './url/getUrlParams'
 // time
 // object
 import isEmpty from './object/isEmpty'
+import getObjValues from './object/getObjValues'
 // string
 // echarts
 // web socket
@@ -19,6 +20,7 @@ export {
   debounce,
   throttle,
   removeRepeat,
+  getObjValues,
   // color
   // url
   getUrlParams,
