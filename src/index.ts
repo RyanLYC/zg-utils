@@ -20,14 +20,14 @@ export {
   debounce,
   throttle,
   removeRepeat,
-  getObjValues,
   // color
   // url
   getUrlParams,
   // regexp
   // time
   // object
-  isEmpty
+  isEmpty,
+  getObjValues
   // string
   // echarts
 }
@@ -36,13 +36,15 @@ export default {
   // function
   debounce,
   throttle,
+  removeRepeat,
   // color
   // url
   getUrlParams,
   // regexp
   // time
   // object
-  isEmpty
+  isEmpty,
+  getObjValues
   // string
   // echarts
 }

@@ -1,4 +1,5 @@
 import { ObjectTypes } from './../../types/index'
+// import { ObjectTypes } from '../types/index' 自动生成声明文件使用这个
 /**
  * @description 获取url中的query参数
  * @param url 目标地址，默认：当前地址栏url

@@ -31,7 +31,7 @@ export declare function throttle(fn: Function, wait: number): Function
  * @param key Number、String数组不传，对象数组必填，判断重复的key值
  * @returns T类型的数组
  */
-export declare function removeRepeat<T>(array: T[], key = ''): T[]
+export declare function removeRepeat<T>(array: T[], key?: string): T[]
 
 /**
  * @description 判断空对象

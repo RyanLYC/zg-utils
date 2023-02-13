@@ -1,6 +1,6 @@
 {
   "name": "zg-utils",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "工具函数库",
   "main": "dist/zg-utils.umd.js",
   "module": "dist/zg-utils.esm.js",
