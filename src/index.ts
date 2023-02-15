@@ -6,6 +6,7 @@ import removeRepeat from './function/removeRepeat'
 // url
 import getUrlParams from './url/getUrlParams'
 // regexp
+import regCollections from './regexp'
 // time
 // object
 import isEmpty from './object/isEmpty'
@@ -25,6 +26,7 @@ export {
   // url
   getUrlParams,
   // regexp
+  regCollections,
   // time
   // object
   isEmpty,
@@ -43,6 +45,7 @@ export default {
   // url
   getUrlParams,
   // regexp
+  regCollections,
   // time
   // object
   isEmpty,
