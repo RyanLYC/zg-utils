@@ -10,6 +10,7 @@ import getUrlParams from './url/getUrlParams'
 // object
 import isEmpty from './object/isEmpty'
 import getObjValues from './object/getObjValues'
+import deepClone from './object/deepClone'
 // string
 // echarts
 // web socket
@@ -27,7 +28,8 @@ export {
   // time
   // object
   isEmpty,
-  getObjValues
+  getObjValues,
+  deepClone
   // string
   // echarts
 }
@@ -44,7 +46,8 @@ export default {
   // time
   // object
   isEmpty,
-  getObjValues
+  getObjValues,
+  deepClone
   // string
   // echarts
 }

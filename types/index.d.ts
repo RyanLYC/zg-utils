@@ -1,5 +1,5 @@
 export interface ObjectTypes<T = any> {
-  [propsName: string]: T
+  [key: string]: T
 }
 
 /**
