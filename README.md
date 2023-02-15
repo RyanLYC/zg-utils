@@ -38,6 +38,27 @@
 ### Url
 - [getUrlParams](src/url/getUrlParams.ts)&emsp; 获取url上的query参数
 
+### Regexp
+- [RegCollections](src/regexp/index.ts)&emsp; 常用正则判断函数
+  - .isUrl(url)&emsp; 判段目标字符串是否为url
+  - .isPhoneNumber(phoneNumber)&emsp; 判段目标字符串是否为手机号
+  - .isEmail(email)&emsp; 判段目标字符串是否为邮箱
+  - .isIDCard(IDCard)&emsp; 判段目标字符串是否为身份证号码
+  - .isZipCode(zipCode)&emsp; 判段目标字符串是否为邮政编码
+  - .isIE()&emsp; 判段是否为IE
+  - .isChrome()&emsp; 判段是否为Chrome
+  - .isFirefox()&emsp; 判段是否为Firefox
+  - .isOpera()&emsp; 判段是否为Opera
+  - .isSafari()&emsp; 判段是否为Safari
+  - .isEdge()&emsp; 判段是否为Edge
+  - .isAndroid()&emsp; 判段是否为Android
+  - .isIPhone()&emsp;判段是否为iPhone
+  - .isIPad()&emsp; 判段是否为iPad
+  - .isMacOS()&emsp; 判段是否为MacOS
+  - .isWindows()&emsp; 判段是否为Windows
+  - .isLinux()&emsp; 判段是否为Linux
+  - .isWeChat()&emsp; 判段是否为微信环境
+
 
 
 ## 备注 自动生成声明文件 的缺点，未知修复方法
