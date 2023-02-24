@@ -4,11 +4,7 @@ import typescript from 'rollup-plugin-typescript2'
 import progress from 'rollup-plugin-progress'
 import filesize from 'rollup-plugin-filesize'
 // import path from 'path'
-import {
-  name as pkgName,
-  module as esmBundle,
-  main as umdBundle
-} from './package.json'
+import { name as pkgName, module as esmBundle, main as umdBundle } from './package.json'
 
 const name = pkgName.split('/').pop()
 
@@ -43,6 +39,7 @@ const bundleConfig = {
       exports: 'named'
     }
   ],
+  external: ['vue'],
   plugins
 }
 

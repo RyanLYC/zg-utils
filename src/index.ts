@@ -16,6 +16,8 @@ import deepClone from './object/deepClone'
 // echarts
 // web socket
 // excel
+// hooks
+import useEventListener from './hooks/useEventListener/index'
 
 export {
   // function
@@ -31,9 +33,11 @@ export {
   // object
   isEmpty,
   getObjValues,
-  deepClone
+  deepClone,
   // string
   // echarts
+  // hooks
+  useEventListener
 }
 
 export default {
@@ -50,7 +54,9 @@ export default {
   // object
   isEmpty,
   getObjValues,
-  deepClone
+  deepClone,
   // string
   // echarts
+  // hooks
+  useEventListener
 }
