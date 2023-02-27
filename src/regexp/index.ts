@@ -1,4 +1,4 @@
-import { RegexpCollection } from '../../types/index.d'
+import { RegexpCollection } from '../../types/regexp'
 class RegCollections implements RegexpCollection {
   readonly ua = navigator.userAgent
   // url地址

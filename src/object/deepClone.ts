@@ -4,7 +4,7 @@ import { ObjectTypes } from 'types'
  * @param obj  被拷贝的对象 [key: string]: (T = any)
  * @returns [key: string]: (T = any)
  */
-function deepClone(obj: ObjectTypes) {
+function deepClone(obj: ObjectTypes): ObjectTypes {
   if (typeof obj !== 'object') {
     return obj
   }
@@ -24,6 +24,7 @@ function deepClone(obj: ObjectTypes) {
       cloneObj[key] = deepClone(obj[key])
     }
   }
+  return cloneObj
 }
 
 export default deepClone
