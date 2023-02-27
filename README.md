@@ -65,7 +65,7 @@
 
 
 
-## 备注 自动生成声明文件 的缺点，未知修复方法
+## 备注 自动生成声明文件 的缺点
 
 build": "npm run clean:dist && npm run lint && rollup -c rollup.config.js && npx tsc -b tsconfig.types.json",
 
