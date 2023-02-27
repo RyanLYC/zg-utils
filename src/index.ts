@@ -18,6 +18,7 @@ import deepClone from './object/deepClone'
 // excel
 // hooks
 import useEventListener from './hooks/useEventListener/index'
+import useMouse from './hooks/useMouse/index'
 
 export {
   // function
@@ -37,7 +38,8 @@ export {
   // string
   // echarts
   // hooks
-  useEventListener
+  useEventListener,
+  useMouse
 }
 
 export default {
@@ -58,5 +60,6 @@ export default {
   // string
   // echarts
   // hooks
-  useEventListener
+  useEventListener,
+  useMouse
 }

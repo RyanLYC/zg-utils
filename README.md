@@ -40,6 +40,7 @@
 
 ### Hooks (https://github.com/InhiblabCore/vue-hooks-plus 学习它的源码，基本是复制过来注释上自己的理解)
 - [useEventListener](src/hooks/useEventListener/index.ts)&emsp; target添加监听事件Hooks
+- [useMouse](src/hooks/useMouse/index.ts)&emsp; target mousemove Hooks
 
 ### Regexp
 - [regCollections](src/regexp/index.ts)&emsp; 常用正则判断函数
@@ -64,7 +65,7 @@
 
 
 
-## 备注 自动生成声明文件 的缺点，未知修复方法  
+## 备注 自动生成声明文件 的缺点，未知修复方法
 
 build": "npm run clean:dist && npm run lint && rollup -c rollup.config.js && npx tsc -b tsconfig.types.json",
 
