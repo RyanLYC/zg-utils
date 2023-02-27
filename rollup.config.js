@@ -3,7 +3,8 @@ import commonjs from '@rollup/plugin-commonjs'
 import typescript from 'rollup-plugin-typescript2'
 import progress from 'rollup-plugin-progress'
 import filesize from 'rollup-plugin-filesize'
-// import path from 'path'
+import path from 'path'
+import zgModules from './modules.json'
 import { name as pkgName, module as esmBundle, main as umdBundle } from './package.json'
 
 const name = pkgName.split('/').pop()
@@ -43,4 +44,19 @@ const bundleConfig = {
   plugins
 }
 
-export default [bundleConfig]
+const modulesConfig = (function () {
+  return Object.entries(zgModules).map(([name, input]) => {
+    return {
+      input,
+      output: {
+        name,
+        file: path.resolve(__dirname, `./dist/modules/${name}.js`),
+        format: 'es',
+        exports: 'auto'
+      },
+      plugins
+    }
+  })
+})()
+
+export default [bundleConfig, ...modulesConfig]

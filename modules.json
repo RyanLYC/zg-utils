@@ -1,0 +1,15 @@
+{
+  "debounce": "src/function/debounce.ts",
+  "throttle": "src/function/throttle.ts",
+  "removeRepeat": "src/function/removeRepeat.ts",
+
+  "getUrlParams": "src/url/getUrlParams.ts",
+
+  "deepClone": "src/object/deepClone.ts",
+  "isEmpty": "src/object/isEmpty.ts",
+
+  "regexp": "src/regexp/index.ts",
+
+  "useEventListener": "src/hooks/useEventListener/index.ts",
+  "useMouse": "src/hooks/useMouse/index.ts"
+}
