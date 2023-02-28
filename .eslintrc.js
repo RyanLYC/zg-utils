@@ -12,6 +12,7 @@ module.exports = {
   'plugins': ['@typescript-eslint'],
   'extends': ['plugin:@typescript-eslint/recommended', 'eslint:recommended'],
   'rules': {
+    '@typescript-eslint/ban-ts-comment': 'off',
     'no-tabs': 'off',
     'indent': ['error', 2],
     'quotes': ['error', 'single'],

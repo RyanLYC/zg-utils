@@ -44,3 +44,12 @@ export declare function useMouse(target?: BasicTarget): Ref<{
   /** 指定元素距离完整页面顶部的距离 */
   elementPosY: number
 }>
+
+/**
+ * 比较index.html的script标签是否改变了，改变了就update否则no-update
+ * @param updateCallBack  update callback function
+ * @param noUpdateCallBack no update callback function
+ * @param time 轮询的时间 默认 4000
+ * @param loop update了是否继续轮询 默认 false
+ */
+export declare const useUpdater: (updateCallBack: noop, noUpdateCallBack: noop | null = null, time = 4000, loop = false) => void

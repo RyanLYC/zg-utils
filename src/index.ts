@@ -19,6 +19,7 @@ import deepClone from './object/deepClone'
 // hooks
 import useEventListener from './hooks/useEventListener/index'
 import useMouse from './hooks/useMouse/index'
+import useUpdater from './hooks/useUpdater/index'
 
 export {
   // function
@@ -39,7 +40,8 @@ export {
   // echarts
   // hooks
   useEventListener,
-  useMouse
+  useMouse,
+  useUpdater
 }
 
 export default {
@@ -61,5 +63,6 @@ export default {
   // echarts
   // hooks
   useEventListener,
-  useMouse
+  useMouse,
+  useUpdater
 }

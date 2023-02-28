@@ -41,6 +41,8 @@
 ### Hooks (https://github.com/InhiblabCore/vue-hooks-plus 学习它的源码，基本是复制过来注释上自己的理解)
 - [useEventListener](src/hooks/useEventListener/index.ts)&emsp; target添加监听事件Hooks
 - [useMouse](src/hooks/useMouse/index.ts)&emsp; target mousemove Hooks
+<!-- 自己写的 -->
+- [useUpdater](src/hooks/useUpdater/index.ts)&emsp; 比较index.html的script标签是否改变了，改变了就update否则no-update
 
 ### Regexp
 - [regCollections](src/regexp/index.ts)&emsp; 常用正则判断函数

@@ -26,7 +26,7 @@ const devBundleConfig = {
   input: path.resolve(__dirname, './examples/main.ts'),
   output: {
     name: 'examplesBundle',
-    file: 'example/bundle.js',
+    file: 'example/bundle1.js',
     format: 'iife',
     extend: true,
     sourcemap: true
