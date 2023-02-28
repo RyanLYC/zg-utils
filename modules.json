@@ -11,5 +11,6 @@
   "regexp": "src/regexp/index.ts",
 
   "useEventListener": "src/hooks/useEventListener/index.ts",
-  "useMouse": "src/hooks/useMouse/index.ts"
+  "useMouse": "src/hooks/useMouse/index.ts",
+  "useUpdater": "src/hooks/useUpdater/index.ts"
 }
